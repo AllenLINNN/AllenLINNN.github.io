@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allen Lin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* 淺色模式 (預設) - 參考 GitHub 風格 */
+            --bg-color: #ffffff;
+            --text-color: #24292f;
+            --link-color: #0969da;
+            --divider-color: #d0d7de;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                /* 深色模式 - 參考 GitHub 風格 */
+                --bg-color: #0d1117;
+                --text-color: #c9d1d9;
+                --link-color: #58a6ff;
+                --divider-color: #30363d;
+            }
+        }
+
+        body {
+            font-family: 'Source Code Pro', monospace;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 40px 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: var(--divider-color);
+            margin: 24px 0;
+        }
+
+        p {
+            font-size: 1em;
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h3>Hi, I'm Allen Lin 🫪</h3>
+    <hr>
+    <p>Researcher at SINOTECH Engineering Consultants, Inc. in Taiwan. My work focuses on railway safety, safety management systems, and construction safety near railways.</p>
+    <p>Contact: <a href="mailto:allenlin@sinotech.org.tw">allenlin@sinotech.org.tw</a></p>
+</body>
+</html>
