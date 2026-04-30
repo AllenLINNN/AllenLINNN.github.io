@@ -63,12 +63,38 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .cat-container {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .cat-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .cat-image {
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            }
+        }
     </style>
+
 </head>
 <body>
     <h3>Hi, I'm Allen Lin 🫪</h3>
     <hr>
     <p>Researcher at SINOTECH ENGINEERING CONSULTANTS, INC. in Taiwan. My work focuses on railway safety, safety management systems, and construction safety near railways.</p>
     <p>Contact: <a href="mailto:allenlin@sinotech.org.tw">allenlin@sinotech.org.tw</a></p>
+
+    <div class="cat-container">
+        <p>This is my cat HuaHua.</p>
+        <img src="huahua.jpeg" alt="HuaHua the cat" class="cat-image">
+    </div>
 </body>
 </html>
