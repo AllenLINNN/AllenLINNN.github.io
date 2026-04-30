@@ -2,6 +2,6 @@
 
 ---
 
-Researcher at SINOTECH Engineering Consultants, Inc. in Taiwan. My work focuses on railway safety, safety management systems, and construction safety near railways.
+Researcher at SINOTECH ENGINEERING CONSULTANTS, INC. in Taiwan. My work focuses on railway safety, safety management systems, and construction safety near railways.
 
 Contact: [allenlin@sinotech.org.tw](mailto:allenlin@sinotech.org.tw)
